@@ -1,0 +1,102 @@
+.content h1{
+    text-align: center; /* Centers the heading */
+    font-family: Arial, Helvetica, sans-serif; /* Chosen Font */
+    font-size: 55px; /* Sets the font size */
+}
+
+.content h2 {
+   text-align: center; /* Centers the heading */
+   font-family: Arial, Helvetica, sans-serif; /* Chosen Font */
+   font-size: 35px; /* Sets the font size */
+}
+
+.content p {
+    text-align: center; /* Centers the paragraph text */
+    font-family: Arial, Helvetica, sans-serif;  /* Chosen Font */
+    font-size: larger; /* Increases font size slightly */
+    font-size: 22px; /* Sets the font size */ 
+    margin-bottom: 50px; /* Adds space below paragraphs */
+    line-height: 1.6; /* Increases line spacing for readability */
+}
+
+.Box {
+
+    width: 1200px; /* Sets a fixed width for the box */
+    height: auto; /* Allows the height to adjust based on content */
+    margin-left: auto; /* Centers the box horizontally */
+    margin-right: auto; /* Centers the box horizontally */
+    background: white; /* Gives the box a white background */
+    border-radius: 8px; /* Rounds the corners of the box */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for depth */
+
+}
+
+.centre {
+    text-align: center; /* Centers text or elements with this class */
+}
+
+.contact-form {
+    width: 40%; /* Sets the form width to 40% of its container */
+    margin: 20px auto; /* Centers the form horizontally with margin */
+    padding: 20px; /* Adds padding inside the form */
+    background: #f4f4f4; /* Light background for the form */
+    border-radius: 8px; /* Rounds the corners of the form */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+}
+
+
+.name-row {
+    display: flex; /* Uses flexbox for layout */
+    gap: 40px; /* Adds space between name fields */
+}
+
+.input-group {
+    flex: 1; /* Allows the input group to take up available space */
+    display: flex;
+    flex-direction: column; /* Aligns label and input vertically */
+}
+
+.contact-form label {
+    display: block; /* Makes label a block element */
+    margin: 5px 0; /* Adds margin above and below the label */
+    font-weight: bold; /* Makes label text bold */
+    font-family: Arial, Helvetica, sans-serif; /* Specifies font */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Makes input fields take full width */
+    padding: 8px; /* Adds padding inside the fields */
+    margin-bottom: 10px; /* Adds margin below each input */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 14px; /* Sets font size */
+    font-family: Arial, Helvetica, sans-serif; /* Specifies font */
+    resize: none; /* Prevents resizing of the textarea */
+}
+
+.contact-form button {
+    background: #4A90E2; /* Blue background for the button */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Adds padding inside the button */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 18px; /* Sets font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    display: block; /* Makes the button a block element */
+    margin: 0 auto; /* Centers the button horizontally */
+}
+
+.contact-form button:hover {
+    background: #1d73d6; /* Changes background color on hover */
+}
+
+img {
+    width: 800px;  /* Sets a fixed width for images */
+    height: 450px; /* Sets a fixed height for images */
+    object-fit: cover;  /* Ensures images fill the area without distorting */
+    margin-top: 20px; /* Adds top margin for spacing */
+    display: block; /* Makes the image a block element */
+    margin-left: auto; /* Centers the image horizontally */
+    margin-right: auto; /* Centers the image horizontally */
+} 

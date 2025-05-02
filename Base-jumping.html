@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Jumping</title>
+    <link rel="Stylesheet" href="navbar.css">
+    <link rel="Stylesheet" href="footer.css">
+    <link rel="Stylesheet" href="Base-jumping.css">
+    <link rel="Stylesheet" href="booking.css">
+
+</head>
+<body>
+
+    <div class="content">
+        <h1>Adventure Holidays</h1>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="road-cycling.html">Road Cycling</a></li>
+                <li><a href="lake-fishing.html">Lake Fishing</a></li>
+                <li><a href="base-jumping.html">Base Jumping</a></li>
+                <li><a href="rock-climbing.html">Rock Climbing</a></li>
+            </ul>
+        </nav>
+
+        <h2 class="large-heading">Base Jumping</h2>
+
+        <img src="Images/BASEjumping2.jpg" alt="Base Jumping Image">
+
+        <div class="Box">
+        <p>For the ultimate thrill-seekers, our base jumping experience offers the chance to leap from the stunning cliffs and peaks of the French and Swiss Alps. With the wind rushing past and panoramic mountain views below, this is the pinnacle of extreme sports. Our expert instructors provide comprehensive training and safety support, making it possible for first-timers to take the plunge in one of the most breathtaking locations in the world.</p>
+        </div>
+
+        <h2 class="small-heading">Cost</h2>
+
+        <div class="Box">
+        <p>This high-adrenaline adventure, including training, equipment, and instructor-led jumps, starts at £350 per person.</p>
+        </div>
+
+        <h2 class="small-heading">Itinerary</h2>
+
+        <div class="itinerary">
+            <ul>
+                <li><strong>7:00 AM</strong> – Registration, safety briefing, and training on parachute control.</li>
+                <li><strong>9:00 AM</strong> – Practice jumps from a training platform.</li>
+                <li><strong>12:30 PM</strong> – Lunch with incredible mountain views.</li>
+                <li><strong>2:00 PM</strong> – Take your first real base jump, guided by expert instructors.</li>
+                <li><strong>4:00 PM</strong> – Video review, debrief, and celebration at a local alpine lodge.</li>
+            </ul>
+        </div> 
+
+        <div class="booking-container">
+            <h2 class="small-heading">Book Your Base Jumping Adventure</h2>
+            <form action="submit-booking-base-jumping.php" method="POST">
+                <input type="hidden" name="activity" value="Base Jumping">
+                <p>Price per person: £350</p>
+    
+                <label for="first-name-jumping">First Name:</label>
+                <input type="text" id="first-name-jumping" name="first-name" placeholder="Enter your first name" required>
+    
+                <label for="last-name-jumping">Last Name:</label>
+                <input type="text" id="last-name-jumping" name="last-name" placeholder="Enter your last name" required>
+    
+                <label for="email-jumping">Email Address:</label>
+                <input type="email" id="email-jumping" name="email" placeholder="Enter your email address" required>
+    
+                <label for="phone-jumping">Phone Number:</label>
+                <input type="tel" id="phone-jumping" name="phone" placeholder="Enter your phone number" required>
+    
+                <label for="num-people-jumping">Number of People:</label>
+                <input type="number" id="num-people-jumping" name="num-people" min="1" value="1" oninput="updateTotalCost('jumping')" required>
+    
+                <label for="date-jumping">Select a Date:</label>
+                <input type="date" id="date-jumping" name="date" required>
+    
+                <button type="button">Book Base Jumping</button>
+            </form>
+        </div>
+
+    </div>
+    <footer>© Adventure Holidays 2022</footer>   
+    
+</body>
+</html>
