@@ -1,0 +1,90 @@
+.content h1{ 
+    text-align: center; /* Centers the main header text */
+    font-family: Arial, Helvetica, sans-serif; /* Chosen Font */
+    font-size: 55px; /* Sets the font size */
+}
+
+.large-heading {
+    text-align: center; /* Centers the heading */ 
+    font-family: Arial, Helvetica, sans-serif; /* Chosen Font */
+    font-size: 45px; /* Sets the font size */
+ }
+
+ .small-heading {
+
+    text-align: center; /* Centers the heading */
+    font-family: Arial, Helvetica, sans-serif; /* Chosen Font */
+    font-size: 35px; /* Sets the font size */
+ }
+
+ img {
+    width: 900px;  /* Sets a fixed width for images */
+    height: 450px; /* Sets a fixed height for images */
+    object-fit: cover; /* Ensures images fill the area without distorting */
+    margin-top: 20px; /* Adds top margin for spacing */
+    display: block; /* Makes the image a block element */
+    margin-left: auto; /* Centers the image horizontally */
+    margin-right: auto; /* Centers the image horizontally */
+}
+
+.content p {
+    text-align: center; /* Centers the paragraph text */
+    font-family: Arial, Helvetica, sans-serif;  /* Chosen Font */
+    font-size: larger; /* Increases font size slightly */
+    font-size: 22px; /* Sets the font size */ 
+    margin-bottom: 50px; /* Adds space below paragraphs */
+    line-height: 1.6; /* Increases line spacing for readability */
+} 
+
+.itinerary {
+    text-align: center; /* Centers the itinerary content */
+    margin: 0 auto; /* Centers the entire container */
+    width: 60%; /* Sets a fixed width */
+}
+
+.itinerary ul {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes padding from the list */
+}
+
+.itinerary ul li {
+    background-color: #d1cfcf; /* Selected background colour */
+    margin: 10px auto; /* Adds space between each item */
+    padding: 10px; /* Adds padding inside each item */
+    border-left: 5px solid #4A90E2;  /* Adds a blue left border */
+    font-size: 16px; /* Sets the font size */ 
+    display: inline-block; /* Displays list items inline */
+    text-align: left;  /* Aligns text to the left */
+    width: 100%;  /* Ensures the list items take full width */
+    font-family: Arial, Helvetica, sans-serif; /* Chosen Font */
+}
+
+.itinerary ul li {
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Chosen Font */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.Box {
+
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}

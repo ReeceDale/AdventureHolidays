@@ -1,0 +1,89 @@
+.content h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+}
+
+.large-heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+ }
+
+ .small-heading {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+ }
+ 
+ img {
+    width: 900px;  
+    height: 450px; 
+    object-fit: cover; 
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: larger;
+    font-size: 22px;
+    margin-bottom: 50px; 
+    line-height: 1.6; 
+}
+
+.itinerary {
+    text-align: center ; 
+    margin: 0 auto; 
+    width: 60%; 
+}
+
+.itinerary ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.itinerary ul li {
+    margin: 10px auto;
+    padding: 10px;
+    border-left: 5px solid #4A90E2; 
+    font-size: 16px;
+    display: inline-block; 
+    text-align: left; 
+    width: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itinerary ul li {
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.Box {
+
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
